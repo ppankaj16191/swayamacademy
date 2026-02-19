@@ -1,71 +1,105 @@
-# swayamacademy
-Celebrating Excellence at Swayam Academy!  We are proud to share the outstanding achievements of our students in the past three consecutive 10th Std board results. Their hard work, dedication, and perseverance have brought remarkable success, reflecting the quality education and guidance provided at Swayam Academy.
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Swayam Academy</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #f4f6f9;
+            background-color: #f2f6ff;
         }
+
         header {
-            background-color: #1e3a8a;
+            background: linear-gradient(to right, #1e3c72, #2a5298);
             color: white;
-            padding: 20px;
+            padding: 30px 20px;
             text-align: center;
         }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+        }
+
         nav {
             background-color: #111827;
-            padding: 10px;
+            padding: 12px;
             text-align: center;
         }
+
         nav a {
             color: white;
             text-decoration: none;
-            margin: 0 15px;
+            margin: 0 20px;
             font-weight: bold;
+            font-size: 16px;
         }
+
+        nav a:hover {
+            color: #60a5fa;
+        }
+
         section {
-            padding: 40px 20px;
+            padding: 50px 20px;
             text-align: center;
         }
+
         .card {
             background: white;
-            padding: 20px;
             margin: 20px auto;
-            width: 80%;
-            max-width: 600px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 30px;
+            width: 85%;
+            max-width: 700px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
-        footer {
-            background-color: #1e3a8a;
-            color: white;
-            text-align: center;
-            padding: 15px;
+
+        h2 {
+            color: #1e3c72;
         }
+
+        .classes-list p {
+            font-size: 18px;
+            margin: 8px 0;
+        }
+
         .btn {
             display: inline-block;
-            padding: 10px 20px;
+            margin-top: 15px;
+            padding: 10px 25px;
             background-color: #2563eb;
             color: white;
             text-decoration: none;
-            border-radius: 5px;
-            margin-top: 10px;
+            border-radius: 6px;
         }
+
         .btn:hover {
-            background-color: #1d4ed8;
+            background-color: #1e40af;
+        }
+
+        footer {
+            background-color: #1e3c72;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 28px;
+            }
         }
     </style>
 </head>
+
 <body>
 
 <header>
     <h1>Swayam Academy</h1>
-    <p>Quality Education for Bright Future</p>
+    <p>Quality Education for 6th to 10th Standard Students</p>
 </header>
 
 <nav>
@@ -78,8 +112,9 @@ Celebrating Excellence at Swayam Academy!  We are proud to share the outstanding
     <div class="card">
         <h2>About Us</h2>
         <p>
-            Swayam Academy provides quality coaching for students from 
-            6th to 10th standard. We focus on strong concepts, exam preparation, 
+            Swayam Academy provides quality coaching for students of
+            6th, 7th, 8th, 9th and 10th standard.
+            We focus on strong concept building, exam preparation
             and personal attention for every student.
         </p>
     </div>
@@ -88,11 +123,13 @@ Celebrating Excellence at Swayam Academy!  We are proud to share the outstanding
 <section id="classes">
     <div class="card">
         <h2>Classes We Offer</h2>
-        <p>6th Standard</p>
-        <p>7th Standard</p>
-        <p>8th Standard</p>
-        <p>9th Standard</p>
-        <p>10th Standard</p>
+        <div class="classes-list">
+            <p>✔ 6th Standard</p>
+            <p>✔ 7th Standard</p>
+            <p>✔ 8th Standard</p>
+            <p>✔ 9th Standard</p>
+            <p>✔ 10th Standard</p>
+        </div>
     </div>
 </section>
 
@@ -106,7 +143,7 @@ Celebrating Excellence at Swayam Academy!  We are proud to share the outstanding
         <p><strong>Contact Number:</strong><br>
         9665201241</p>
 
-        <a class="btn" href="tel:9665201241">Call Now</a>
+        <a href="tel:9665201241" class="btn">Call Now</a>
     </div>
 </section>
 
